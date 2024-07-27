@@ -1,0 +1,35 @@
+.number{
+    width: 100%;
+    background-color: purple;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+}
+.one{
+    background-color: aqua;
+    grid-row: span 3;
+} 
+.two{
+    background-color: aqua;
+    grid-column: span 2;
+}
+.three{
+    background-color: blue;
+}
+.four{
+    background-color: darkslateblue;
+}
+.five{
+    background-color: rgb(0, 255, 81);
+}
+.six{
+    background-color: aqua;
+    grid-row: span 2;
+}
+.seven{
+    background-color: cornflowerblue;
+}
+.eight{
+    background-color: hotpink;
+}
